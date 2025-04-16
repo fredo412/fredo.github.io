@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Répétiteur de Texte par Fredo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Répétiteur de Texte Par FREDO</h1>
+        
+        <div class="input-group">
+            <label for="text">Texte à répéter :</label>
+            <input type="text" id="text" placeholder="Ex: Hello">
+        </div>
+
+        <div class="input-group">
+            <label for="repeat">Nombre de répétitions :</label>
+            <input type="number" id="repeat" value="3" min="1">
+        </div>
+
+        <button onclick="repeatText()">Générer</button>
+
+        <div class="output" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
